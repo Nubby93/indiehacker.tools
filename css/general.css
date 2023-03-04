@@ -48,12 +48,25 @@ p {
     row-gap: 24px;
 }
 
-hr {
-    border-top: 1px;
-    width: 85%;
-    border-color: var(--dark4);
-    
-}
+
+
+/* responsive horizontal line  */
+
+.line {
+    display: flex;
+    align-items: center;
+  }
+  .line span:first-child {
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .line b {
+    flex: 1 0 0;
+    height: 1px;
+    background: var(--dark4);
+    margin-left: 16px;
+    min-width: 25px;
+  }
 
 /* Top Nav & footer */
 nav {
