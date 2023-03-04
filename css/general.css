@@ -358,6 +358,16 @@ footer > div > div > a:hover {
     row-gap: 80px;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
 
 /* Flex rows */
 .flex-row-gap-24 {
