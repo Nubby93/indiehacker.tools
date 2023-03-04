@@ -75,7 +75,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 0px;
+    padding: 16px 0px;
     border-bottom: 1px solid var(--dark4);
 }
 
