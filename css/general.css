@@ -534,7 +534,14 @@ footer > div > div > a:hover {
 }
 
 
-
+/* SOCIAL MEDIA */
+.fa-twitter {
+    color: var(--dark2);
+  }
+    .fa-twitter:hover {
+      color: var(--pink);
+    }
+  
 
 /* media queries */
 
