@@ -225,13 +225,14 @@ footer > div > div > a:hover {
     display: flex;
     flex-direction: row;
     row-gap: 20px;
+    /* column-gap: 20px; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .tools a {
         padding: 24px;
-        width: 350px;
+        width: 340px;
         height: auto;
         border: 1px solid var(--dark2);
     }
@@ -410,3 +411,35 @@ footer > div > div > a:hover {
       background-color: lightblue;
     }
   } */
+
+
+@media only screen and (max-width: 1240px){
+  .tools a {
+    width: 320px;
+}
+}
+
+@media only screen and (max-width: 1160px){
+    .tools a {
+      width: 360px;
+  }
+  .tools {
+    display: flex;
+    justify-content:flex-start;
+    column-gap: 20px;
+}
+}
+
+@media only screen and (max-width: 890px){
+    .tools a {
+      width: 360px;
+  }
+  .tools {
+    display: flex;
+    justify-content:center;
+    column-gap: 20px;
+}
+.categories {
+    justify-content: center;
+}
+}
