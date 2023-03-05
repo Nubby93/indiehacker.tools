@@ -7,13 +7,14 @@
 
     <link rel="shortcut icon" href="../assets/general/logo.png" type="image/x-icon">
 
-    <title>Tools by Gabriel Kanev</title>
+    <title>Indie hackers from Romania</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/filter.css">
 
     <style>
     #indies {
@@ -38,35 +39,58 @@
 <div id="nav-placeholder">
 </div>
 
-   
+<section class="hero">
+    <h1>Indie hackers from Romania</h1>
 
-<main class="indie-flex flex-column-gap-48">
+    <p>1 indie hackers listed</p>
+</section>    
 
+<main class="flex-column-gap-48">
 
-    <section class="indie flex-column-gap-32">
-        <img src="../assets/indies/gabriel-kanev.png" alt="Gabriel Kanev">
+    <!--     <section class="line">
+        <span>promoted tools</span><b></b>
+    </section>
 
-        <div class="flex-column-gap-16">
-        <h1>Gabriel Kanev</h1>
-    
-        <p>1 tools listed</p>
-    </div>
+    <section class="promoted-tool">
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+    </section> -->
+
+ <section class="line">
+        <span>alphabetical order</span><b></b>
     </section> 
 
-    <section class="indie-tools">
-        <a target="_blank" href="https://bimbala.com/">
-            <article class="flex-row-gap-24">
-            <img src="../assets/logos/bimbala.png" alt="Bimbala logo">
+    <section class="categories">
+        <a class="flex-row-gap-24" href="../indies/iulian-pistol.html">
+            <img src="../assets/indies/iulian-pistol.png" alt="Iulian Pistol page">
             <div class="flex-column-gap-12">
-                <p>Bimbala</p>
-                <p>Provides feeback, information, support, [...]</p>
+                <p>Iulian Pistol</p>
+                <p>1 tool listed</p>
             </div>
-        </article>
-            <article class="status released">
-                <img src="../assets/general/badge_released.png" alt="Tool Badge"> <span>Released</span>
-            </article>
         </a>
+
     </section>
+
+
 
 
 </main>    
@@ -86,5 +110,7 @@
     });
     </script>
 <!--Calling components-->
+
+<script src="../scripts/filter.js"></script>
 </body>
 </html>

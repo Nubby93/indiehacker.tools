@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/general.css">
-
+    <link rel="stylesheet" href="../css/filter.css">
     <style>
     #tools {
         color: var(--light1);
@@ -75,17 +75,28 @@
     </section> -->
 
 
-    <section class="line">
-        <span>alphabetical order</span><b></b>
-    </section>
+    <ul class="filtermenu">
+        <li data-filter="all">All</li>
+        <li data-filter="indie">By Indies</li>
+        <li data-filter="other">By Others</li>
+      </ul>
 
-    <section class="tools">
-        <a class="flex-row-gap-24" target="_blank" href="https://www.kodytools.com/">
+    <!-- <section class="line">
+        <span>alphabetical order</span><b></b>
+    </section> -->
+
+    <section class="tools-page filter-container">
+        <a class="post indie" target="_blank" href="https://www.kodytools.com/">
+            <article class="flex-row-gap-24">
             <img src="../assets/logos/kody_tools.png" alt="Kody Tools logo">
             <div class="flex-column-gap-12">
                 <p>Kody Tools</p>
                 <p>Hub of Online Tools</p>
             </div>
+        </article>
+        <article class="status released">
+            <img src="../assets/general/badge_released.png" alt="Tool Badge"> <span>Released</span>
+        </article>
         </a>
     </section>
 
@@ -109,5 +120,7 @@
     });
     </script>
 <!--Calling components-->
+
+<script src="../scripts/filter.js"></script>
 </body>
 </html>

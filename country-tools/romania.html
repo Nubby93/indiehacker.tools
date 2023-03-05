@@ -7,16 +7,17 @@
 
     <link rel="shortcut icon" href="../assets/general/logo.png" type="image/x-icon">
 
-    <title>Tools by Iulian Pistol</title>
+    <title>Tools made in Romania</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/filter.css">
 
     <style>
-    #indies {
+    #tools {
         color: var(--light1);
     }
 </style>
@@ -38,22 +39,53 @@
 <div id="nav-placeholder">
 </div>
 
-   
+<section class="hero">
+    <h1>Tools made in Romania</h1>
 
-<main class="indie-flex flex-column-gap-48">
+    <p>Browse 1 tools in this category</p>
+</section>    
 
+<main class="flex-column-gap-48">
 
-    <section class="indie flex-column-gap-32">
-        <img src="../assets/indies/iulian-pistol.png" alt="">
+    <!--     <section class="line">
+        <span>promoted tools</span><b></b>
+    </section>
 
-        <div class="flex-column-gap-16">
-        <h1>Iulian Pistol</h1>
-    
-        <p>1 tool listed</p>
-    </div>
-    </section> 
+    <section class="promoted-tool">
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+        <a class="flex-row-gap-24" target="_blank" href="">
+            <img src="../assets/logo_large.png" alt="">
+            <div class="flex-column-gap-12">
+                <p>Appname</p>
+                <p>Lorem ipsum sin dolores</p>
+            </div>
+        </a>
+    </section> -->
 
-    <section class="indie-tools">
+    <ul class="filtermenu">
+        <li data-filter="all">All</li>
+        <li data-filter="indie">By Indies</li>
+        <li data-filter="other">By Others</li>
+      </ul>
+
+    <!-- <section class="line">
+        <span>alphabetical order</span><b></b>
+    </section> -->
+
+    <section class="tools-page filter-container">
         <a class="post indie" target="_blank" href="https://www.uiboat.design/">
             <article class="flex-row-gap-24">
                 <img src="../assets/logos/uiboat.png" alt="UIBoat logo">
@@ -66,7 +98,10 @@
                 <img src="../assets/general/badge_generating-revenue.png" alt="Tool Badge"> <span>Generating revenue</span>
             </article>
         </a>
+
     </section>
+
+
 
 
 </main>    
@@ -86,5 +121,7 @@
     });
     </script>
 <!--Calling components-->
+
+<script src="../scripts/filter.js"></script>
 </body>
 </html>
