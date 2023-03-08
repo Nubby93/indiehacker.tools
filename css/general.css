@@ -542,6 +542,13 @@ footer > div > div > a:hover {
       color: var(--pink);
     }
   
+    .fa-envelope {
+        color: var(--dark2);
+      }
+        .fa-envelope:hover {
+          color: var(--pink);
+        }
+          
 
 /* media queries */
 
